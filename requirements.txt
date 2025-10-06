@@ -1,0 +1,7 @@
+# Python dependencies for verb extraction tool
+spacy>=3.7.0
+spacy[lookups]>=3.7.0
+
+# Additional useful packages for text processing
+numpy>=1.24.0
+pandas>=2.0.0
