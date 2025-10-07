@@ -1,13 +1,17 @@
 # Text Processing Tasks
 
 ## ✅ Compl### Files Structure
-- `app.py` - Main text processing tool (verb extraction + bag-of-words)
+- `a### Original Requirements
+- [x] Extraire tous les verbes, préciser leurs temps: Infinitif, Présent de l'indicatif, etc…
+- [x] Extraire tous les mots qui sont considérés comme importants dans le texte sans redondance (Bag-of-words)
+- [x] Extraire tous les groupes nominaux: Considérez les formes simples et moyennes: article + nom, article + nom + adjectif attribut, article + adjectif épithète + nom, article + adjectif épithète + nom + adjectif attribut (Utiliser exclusivement Spacy [Tips: Rule-Based Matching])Main text processing tool (verb extraction + bag-of-words + noun phrases)
 - `setup.py` - Dependency installation script
 - `test_verb_extraction.py` - Test suite
 - `requirements.txt` - Python dependencies
 - `data/text.txt` - Input text file
 - `verb_analysis_results.json` - Verb analysis output (generated)
-- `bag_of_words_results.json` - Bag-of-Words analysis output (generated)s
+- `bag_of_words_results.json` - Bag-of-Words analysis output (generated)
+- `noun_phrases_results.json` - Noun phrases analysis output (generated)
 
 ### 1. Verb Extraction with Precise Tense Analysis
 - [x] Extraire tous les verbes, préciser leurs temps: Infinitif, Présent de l'indicatif, etc…
@@ -30,10 +34,27 @@
   - Provides context examples for each important word
   - Outputs results in JSON format
 
+### 3. Noun Phrase Extraction
+- [x] Extraire tous les groupes nominaux: Considérez les formes simples et moyennes: article + nom, article + nom + adjectif attribut, article + adjectif épithète + nom, article + adjectif épithète + nom + adjectif attribut (Utiliser exclusivement Spacy [Tips: Rule-Based Matching])
+- **Implementation**: `app.py` - Comprehensive French Noun Phrase extraction tool using spaCy Rule-Based Matching
+- **Features**:
+  - Extracts noun phrases using spaCy's Rule-Based Matching patterns
+  - Supports 5 different noun phrase patterns:
+    1. Article + Nom (DET + NOUN)
+    2. Article + Nom + Adjectif attribut (DET + NOUN + ADJ)
+    3. Article + Adjectif épithète + Nom (DET + ADJ + NOUN)
+    4. Article + Adjectif épithète + Nom + Adjectif attribut (DET + ADJ + NOUN + ADJ)
+    5. Article + Nom + Préposition + Article + Nom (compound noun phrases)
+  - Provides detailed component analysis for each noun phrase
+  - Includes sentence context and position information
+  - Outputs results in JSON format with pattern statistics
+
 ## 🔄 Pending Tasks
 
-### 3. Noun Phrase Extraction  
-- [ ] Extraire tous les groupes nominaux: Considérez les formes simples et moyennes: article + nom, article + nom + adjectif attribut, article + adjectif épithète + nom, article + adjectif épithète + nom + adjectif attribut (Utiliser exclusivement Spacy [Tips: Rule-Based Matching])
+### 4. Future Enhancements
+- [ ] Add more complex noun phrase patterns (relative clauses, participial phrases)
+- [ ] Implement semantic analysis for extracted terms
+- [ ] Add text summarization capabilities
 
 ## 🚀 Getting Started
 

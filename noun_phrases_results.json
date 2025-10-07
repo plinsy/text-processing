@@ -1,0 +1,1904 @@
+{
+  "total_noun_phrases": 119,
+  "extraction_timestamp": "1759817236.525267",
+  "patterns_found": {
+    "Article + Nom": 85,
+    "Article + Nom + Préposition + Article + Nom": 9,
+    "Article + Nom + Adjectif attribut": 21,
+    "Article + Adjectif épithète + Nom": 3,
+    "Article + Adjectif épithète + Nom + Adjectif attribut": 1
+  },
+  "noun_phrases": [
+    {
+      "text": "nos sociétés",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "nos",
+        "nom": "sociétés"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "L’intelligence artificielle (IA) est aujourd’hui au cœur de nombreuses transformations dans nos sociétés, que ce soit dans le domaine de la santé, de l’industrie, des transports ou même de notre quotidien numérique.",
+      "start_char": 92,
+      "end_char": 104
+    },
+    {
+      "text": "le domaine",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "le",
+        "nom": "domaine"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "L’intelligence artificielle (IA) est aujourd’hui au cœur de nombreuses transformations dans nos sociétés, que ce soit dans le domaine de la santé, de l’industrie, des transports ou même de notre quotidien numérique.",
+      "start_char": 123,
+      "end_char": 133
+    },
+    {
+      "text": "le domaine de la santé",
+      "pattern_type": "Article + Nom + Préposition + Article + Nom",
+      "components": {
+        "article1": "le",
+        "nom1": "domaine",
+        "preposition": "de",
+        "article2": "la",
+        "nom2": "santé"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADP",
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "L’intelligence artificielle (IA) est aujourd’hui au cœur de nombreuses transformations dans nos sociétés, que ce soit dans le domaine de la santé, de l’industrie, des transports ou même de notre quotidien numérique.",
+      "start_char": 123,
+      "end_char": 145
+    },
+    {
+      "text": "la santé",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "santé"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "L’intelligence artificielle (IA) est aujourd’hui au cœur de nombreuses transformations dans nos sociétés, que ce soit dans le domaine de la santé, de l’industrie, des transports ou même de notre quotidien numérique.",
+      "start_char": 137,
+      "end_char": 145
+    },
+    {
+      "text": "notre quotidien",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "notre",
+        "nom": "quotidien"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "L’intelligence artificielle (IA) est aujourd’hui au cœur de nombreuses transformations dans nos sociétés, que ce soit dans le domaine de la santé, de l’industrie, des transports ou même de notre quotidien numérique.",
+      "start_char": 189,
+      "end_char": 204
+    },
+    {
+      "text": "notre quotidien numérique",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "notre",
+        "nom": "quotidien",
+        "adjectif_attribut": "numérique"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "L’intelligence artificielle (IA) est aujourd’hui au cœur de nombreuses transformations dans nos sociétés, que ce soit dans le domaine de la santé, de l’industrie, des transports ou même de notre quotidien numérique.",
+      "start_char": 189,
+      "end_char": 214
+    },
+    {
+      "text": "la capacité",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "capacité"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Elle fait référence à la capacité des machines à accomplir des tâches qui, jusqu’à récemment, étaient considérées comme l’apanage de l’intelligence humaine, telles que la compréhension du langage naturel, la reconnaissance d'images, la prise de décisions ou encore l’analyse de données complexes.\nL’IA repose sur des technologies comme le machine learning et les réseaux neuronaux, qui permettent aux machines d'apprendre et de s'améliorer à partir de données.",
+      "start_char": 238,
+      "end_char": 249
+    },
+    {
+      "text": "des tâches",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "tâches"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Elle fait référence à la capacité des machines à accomplir des tâches qui, jusqu’à récemment, étaient considérées comme l’apanage de l’intelligence humaine, telles que la compréhension du langage naturel, la reconnaissance d'images, la prise de décisions ou encore l’analyse de données complexes.\nL’IA repose sur des technologies comme le machine learning et les réseaux neuronaux, qui permettent aux machines d'apprendre et de s'améliorer à partir de données.",
+      "start_char": 275,
+      "end_char": 285
+    },
+    {
+      "text": "la compréhension",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "compréhension"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Elle fait référence à la capacité des machines à accomplir des tâches qui, jusqu’à récemment, étaient considérées comme l’apanage de l’intelligence humaine, telles que la compréhension du langage naturel, la reconnaissance d'images, la prise de décisions ou encore l’analyse de données complexes.\nL’IA repose sur des technologies comme le machine learning et les réseaux neuronaux, qui permettent aux machines d'apprendre et de s'améliorer à partir de données.",
+      "start_char": 384,
+      "end_char": 400
+    },
+    {
+      "text": "la reconnaissance",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "reconnaissance"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Elle fait référence à la capacité des machines à accomplir des tâches qui, jusqu’à récemment, étaient considérées comme l’apanage de l’intelligence humaine, telles que la compréhension du langage naturel, la reconnaissance d'images, la prise de décisions ou encore l’analyse de données complexes.\nL’IA repose sur des technologies comme le machine learning et les réseaux neuronaux, qui permettent aux machines d'apprendre et de s'améliorer à partir de données.",
+      "start_char": 421,
+      "end_char": 438
+    },
+    {
+      "text": "la prise",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "prise"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Elle fait référence à la capacité des machines à accomplir des tâches qui, jusqu’à récemment, étaient considérées comme l’apanage de l’intelligence humaine, telles que la compréhension du langage naturel, la reconnaissance d'images, la prise de décisions ou encore l’analyse de données complexes.\nL’IA repose sur des technologies comme le machine learning et les réseaux neuronaux, qui permettent aux machines d'apprendre et de s'améliorer à partir de données.",
+      "start_char": 449,
+      "end_char": 457
+    },
+    {
+      "text": "des technologies",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "technologies"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Elle fait référence à la capacité des machines à accomplir des tâches qui, jusqu’à récemment, étaient considérées comme l’apanage de l’intelligence humaine, telles que la compréhension du langage naturel, la reconnaissance d'images, la prise de décisions ou encore l’analyse de données complexes.\nL’IA repose sur des technologies comme le machine learning et les réseaux neuronaux, qui permettent aux machines d'apprendre et de s'améliorer à partir de données.",
+      "start_char": 529,
+      "end_char": 545
+    },
+    {
+      "text": "des technologies comme le machine",
+      "pattern_type": "Article + Nom + Préposition + Article + Nom",
+      "components": {
+        "article1": "des",
+        "nom1": "technologies",
+        "preposition": "comme",
+        "article2": "le",
+        "nom2": "machine"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADP",
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Elle fait référence à la capacité des machines à accomplir des tâches qui, jusqu’à récemment, étaient considérées comme l’apanage de l’intelligence humaine, telles que la compréhension du langage naturel, la reconnaissance d'images, la prise de décisions ou encore l’analyse de données complexes.\nL’IA repose sur des technologies comme le machine learning et les réseaux neuronaux, qui permettent aux machines d'apprendre et de s'améliorer à partir de données.",
+      "start_char": 529,
+      "end_char": 562
+    },
+    {
+      "text": "le machine",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "le",
+        "nom": "machine"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Elle fait référence à la capacité des machines à accomplir des tâches qui, jusqu’à récemment, étaient considérées comme l’apanage de l’intelligence humaine, telles que la compréhension du langage naturel, la reconnaissance d'images, la prise de décisions ou encore l’analyse de données complexes.\nL’IA repose sur des technologies comme le machine learning et les réseaux neuronaux, qui permettent aux machines d'apprendre et de s'améliorer à partir de données.",
+      "start_char": 552,
+      "end_char": 562
+    },
+    {
+      "text": "le machine learning",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "le",
+        "nom": "machine",
+        "adjectif_attribut": "learning"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Elle fait référence à la capacité des machines à accomplir des tâches qui, jusqu’à récemment, étaient considérées comme l’apanage de l’intelligence humaine, telles que la compréhension du langage naturel, la reconnaissance d'images, la prise de décisions ou encore l’analyse de données complexes.\nL’IA repose sur des technologies comme le machine learning et les réseaux neuronaux, qui permettent aux machines d'apprendre et de s'améliorer à partir de données.",
+      "start_char": 552,
+      "end_char": 571
+    },
+    {
+      "text": "les réseaux",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "réseaux"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Elle fait référence à la capacité des machines à accomplir des tâches qui, jusqu’à récemment, étaient considérées comme l’apanage de l’intelligence humaine, telles que la compréhension du langage naturel, la reconnaissance d'images, la prise de décisions ou encore l’analyse de données complexes.\nL’IA repose sur des technologies comme le machine learning et les réseaux neuronaux, qui permettent aux machines d'apprendre et de s'améliorer à partir de données.",
+      "start_char": 575,
+      "end_char": 586
+    },
+    {
+      "text": "les réseaux neuronaux",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "les",
+        "nom": "réseaux",
+        "adjectif_attribut": "neuronaux"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Elle fait référence à la capacité des machines à accomplir des tâches qui, jusqu’à récemment, étaient considérées comme l’apanage de l’intelligence humaine, telles que la compréhension du langage naturel, la reconnaissance d'images, la prise de décisions ou encore l’analyse de données complexes.\nL’IA repose sur des technologies comme le machine learning et les réseaux neuronaux, qui permettent aux machines d'apprendre et de s'améliorer à partir de données.",
+      "start_char": 575,
+      "end_char": 596
+    },
+    {
+      "text": "cette capacité",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "cette",
+        "nom": "capacité"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "C’est cette capacité d’apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux, les voitures autonomes ou encore les systèmes de recommandation sur les plateformes de streaming.",
+      "start_char": 683,
+      "end_char": 697
+    },
+    {
+      "text": "la voie",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "voie"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "C’est cette capacité d’apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux, les voitures autonomes ou encore les systèmes de recommandation sur les plateformes de streaming.",
+      "start_char": 727,
+      "end_char": 734
+    },
+    {
+      "text": "la voie à des applications",
+      "pattern_type": "Article + Nom + Préposition + Article + Nom",
+      "components": {
+        "article1": "la",
+        "nom1": "voie",
+        "preposition": "à",
+        "article2": "des",
+        "nom2": "applications"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADP",
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "C’est cette capacité d’apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux, les voitures autonomes ou encore les systèmes de recommandation sur les plateformes de streaming.",
+      "start_char": 727,
+      "end_char": 753
+    },
+    {
+      "text": "des applications",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "applications"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "C’est cette capacité d’apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux, les voitures autonomes ou encore les systèmes de recommandation sur les plateformes de streaming.",
+      "start_char": 737,
+      "end_char": 753
+    },
+    {
+      "text": "les assistants",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "assistants"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "C’est cette capacité d’apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux, les voitures autonomes ou encore les systèmes de recommandation sur les plateformes de streaming.",
+      "start_char": 773,
+      "end_char": 787
+    },
+    {
+      "text": "les assistants vocaux",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "les",
+        "nom": "assistants",
+        "adjectif_attribut": "vocaux"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "C’est cette capacité d’apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux, les voitures autonomes ou encore les systèmes de recommandation sur les plateformes de streaming.",
+      "start_char": 773,
+      "end_char": 794
+    },
+    {
+      "text": "les voitures",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "voitures"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "C’est cette capacité d’apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux, les voitures autonomes ou encore les systèmes de recommandation sur les plateformes de streaming.",
+      "start_char": 796,
+      "end_char": 808
+    },
+    {
+      "text": "les systèmes",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "systèmes"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "C’est cette capacité d’apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux, les voitures autonomes ou encore les systèmes de recommandation sur les plateformes de streaming.",
+      "start_char": 829,
+      "end_char": 841
+    },
+    {
+      "text": "les plateformes",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "plateformes"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "C’est cette capacité d’apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux, les voitures autonomes ou encore les systèmes de recommandation sur les plateformes de streaming.",
+      "start_char": 864,
+      "end_char": 879
+    },
+    {
+      "text": "la santé",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "santé"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans la santé, par exemple, des algorithmes d’IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins, tandis que dans l’industrie, les robots intelligents optimisent la production et réduisent les erreurs humaines.",
+      "start_char": 899,
+      "end_char": 907
+    },
+    {
+      "text": "des algorithmes",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "algorithmes"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans la santé, par exemple, des algorithmes d’IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins, tandis que dans l’industrie, les robots intelligents optimisent la production et réduisent les erreurs humaines.",
+      "start_char": 922,
+      "end_char": 937
+    },
+    {
+      "text": "des images",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "images"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans la santé, par exemple, des algorithmes d’IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins, tandis que dans l’industrie, les robots intelligents optimisent la production et réduisent les erreurs humaines.",
+      "start_char": 960,
+      "end_char": 970
+    },
+    {
+      "text": "des images médicales",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "des",
+        "nom": "images",
+        "adjectif_attribut": "médicales"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Dans la santé, par exemple, des algorithmes d’IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins, tandis que dans l’industrie, les robots intelligents optimisent la production et réduisent les erreurs humaines.",
+      "start_char": 960,
+      "end_char": 980
+    },
+    {
+      "text": "des pathologies",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "pathologies"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans la santé, par exemple, des algorithmes d’IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins, tandis que dans l’industrie, les robots intelligents optimisent la production et réduisent les erreurs humaines.",
+      "start_char": 995,
+      "end_char": 1010
+    },
+    {
+      "text": "des pathologies avec une précision",
+      "pattern_type": "Article + Nom + Préposition + Article + Nom",
+      "components": {
+        "article1": "des",
+        "nom1": "pathologies",
+        "preposition": "avec",
+        "article2": "une",
+        "nom2": "précision"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADP",
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans la santé, par exemple, des algorithmes d’IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins, tandis que dans l’industrie, les robots intelligents optimisent la production et réduisent les erreurs humaines.",
+      "start_char": 995,
+      "end_char": 1029
+    },
+    {
+      "text": "une précision",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "une",
+        "nom": "précision"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans la santé, par exemple, des algorithmes d’IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins, tandis que dans l’industrie, les robots intelligents optimisent la production et réduisent les erreurs humaines.",
+      "start_char": 1016,
+      "end_char": 1029
+    },
+    {
+      "text": "les robots",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "robots"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans la santé, par exemple, des algorithmes d’IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins, tandis que dans l’industrie, les robots intelligents optimisent la production et réduisent les erreurs humaines.",
+      "start_char": 1100,
+      "end_char": 1110
+    },
+    {
+      "text": "les robots intelligents",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "les",
+        "nom": "robots",
+        "adjectif_attribut": "intelligents"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Dans la santé, par exemple, des algorithmes d’IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins, tandis que dans l’industrie, les robots intelligents optimisent la production et réduisent les erreurs humaines.",
+      "start_char": 1100,
+      "end_char": 1123
+    },
+    {
+      "text": "la production",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "production"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans la santé, par exemple, des algorithmes d’IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins, tandis que dans l’industrie, les robots intelligents optimisent la production et réduisent les erreurs humaines.",
+      "start_char": 1135,
+      "end_char": 1148
+    },
+    {
+      "text": "les erreurs",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "erreurs"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans la santé, par exemple, des algorithmes d’IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins, tandis que dans l’industrie, les robots intelligents optimisent la production et réduisent les erreurs humaines.",
+      "start_char": 1162,
+      "end_char": 1173
+    },
+    {
+      "text": "les erreurs humaines",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "les",
+        "nom": "erreurs",
+        "adjectif_attribut": "humaines"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Dans la santé, par exemple, des algorithmes d’IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins, tandis que dans l’industrie, les robots intelligents optimisent la production et réduisent les erreurs humaines.",
+      "start_char": 1162,
+      "end_char": 1182
+    },
+    {
+      "text": "l'IA",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "l'",
+        "nom": "IA"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "L'un des plus grands atouts de l'IA réside dans sa capacité à traiter et analyser des volumes massifs de données en un temps record.",
+      "start_char": 1215,
+      "end_char": 1219
+    },
+    {
+      "text": "sa capacité",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "sa",
+        "nom": "capacité"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "L'un des plus grands atouts de l'IA réside dans sa capacité à traiter et analyser des volumes massifs de données en un temps record.",
+      "start_char": 1232,
+      "end_char": 1243
+    },
+    {
+      "text": "des volumes",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "volumes"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "L'un des plus grands atouts de l'IA réside dans sa capacité à traiter et analyser des volumes massifs de données en un temps record.",
+      "start_char": 1266,
+      "end_char": 1277
+    },
+    {
+      "text": "des volumes massifs",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "des",
+        "nom": "volumes",
+        "adjectif_attribut": "massifs"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "L'un des plus grands atouts de l'IA réside dans sa capacité à traiter et analyser des volumes massifs de données en un temps record.",
+      "start_char": 1266,
+      "end_char": 1285
+    },
+    {
+      "text": "un temps",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "un",
+        "nom": "temps"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "L'un des plus grands atouts de l'IA réside dans sa capacité à traiter et analyser des volumes massifs de données en un temps record.",
+      "start_char": 1300,
+      "end_char": 1308
+    },
+    {
+      "text": "un temps record",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "un",
+        "nom": "temps",
+        "adjectif_attribut": "record"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "L'un des plus grands atouts de l'IA réside dans sa capacité à traiter et analyser des volumes massifs de données en un temps record.",
+      "start_char": 1300,
+      "end_char": 1315
+    },
+    {
+      "text": "des insights précieux",
+      "pattern_type": "Article + Adjectif épithète + Nom",
+      "components": {
+        "article": "des",
+        "adjectif_epithete": "insights",
+        "nom": "précieux"
+      },
+      "pos_tags": [
+        "DET",
+        "ADJ",
+        "NOUN"
+      ],
+      "sentence_context": "Cela permet aux entreprises d'obtenir des insights précieux, d’anticiper des tendances ou de proposer des services ultra-personnalisés.",
+      "start_char": 1355,
+      "end_char": 1376
+    },
+    {
+      "text": "des tendances",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "tendances"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Cela permet aux entreprises d'obtenir des insights précieux, d’anticiper des tendances ou de proposer des services ultra-personnalisés.",
+      "start_char": 1390,
+      "end_char": 1403
+    },
+    {
+      "text": "des services",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "services"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Cela permet aux entreprises d'obtenir des insights précieux, d’anticiper des tendances ou de proposer des services ultra-personnalisés.",
+      "start_char": 1419,
+      "end_char": 1431
+    },
+    {
+      "text": "des services ultra-personnalisés",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "des",
+        "nom": "services",
+        "adjectif_attribut": "ultra-personnalisés"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Cela permet aux entreprises d'obtenir des insights précieux, d’anticiper des tendances ou de proposer des services ultra-personnalisés.",
+      "start_char": 1419,
+      "end_char": 1451
+    },
+    {
+      "text": "ce pouvoir",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "ce",
+        "nom": "pouvoir"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Cependant, ce pouvoir immense soulève aussi de nombreuses questions, notamment en ce qui concerne la sécurité des données et la protection de la vie privée.",
+      "start_char": 1464,
+      "end_char": 1474
+    },
+    {
+      "text": "de nombreuses questions",
+      "pattern_type": "Article + Adjectif épithète + Nom",
+      "components": {
+        "article": "de",
+        "adjectif_epithete": "nombreuses",
+        "nom": "questions"
+      },
+      "pos_tags": [
+        "DET",
+        "ADJ",
+        "NOUN"
+      ],
+      "sentence_context": "Cependant, ce pouvoir immense soulève aussi de nombreuses questions, notamment en ce qui concerne la sécurité des données et la protection de la vie privée.",
+      "start_char": 1497,
+      "end_char": 1520
+    },
+    {
+      "text": "la sécurité",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "sécurité"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Cependant, ce pouvoir immense soulève aussi de nombreuses questions, notamment en ce qui concerne la sécurité des données et la protection de la vie privée.",
+      "start_char": 1551,
+      "end_char": 1562
+    },
+    {
+      "text": "la protection",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "protection"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Cependant, ce pouvoir immense soulève aussi de nombreuses questions, notamment en ce qui concerne la sécurité des données et la protection de la vie privée.",
+      "start_char": 1578,
+      "end_char": 1591
+    },
+    {
+      "text": "la protection de la vie",
+      "pattern_type": "Article + Nom + Préposition + Article + Nom",
+      "components": {
+        "article1": "la",
+        "nom1": "protection",
+        "preposition": "de",
+        "article2": "la",
+        "nom2": "vie"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADP",
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Cependant, ce pouvoir immense soulève aussi de nombreuses questions, notamment en ce qui concerne la sécurité des données et la protection de la vie privée.",
+      "start_char": 1578,
+      "end_char": 1601
+    },
+    {
+      "text": "la vie",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "vie"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Cependant, ce pouvoir immense soulève aussi de nombreuses questions, notamment en ce qui concerne la sécurité des données et la protection de la vie privée.",
+      "start_char": 1595,
+      "end_char": 1601
+    },
+    {
+      "text": "l'IA",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "l'",
+        "nom": "IA"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Plus l'IA interagit avec des informations personnelles, plus les risques de fuites ou d'utilisations malveillantes augmentent.\nEn parallèle, l’IA met également en lumière des enjeux éthiques majeurs.",
+      "start_char": 1615,
+      "end_char": 1619
+    },
+    {
+      "text": "des informations",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "informations"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Plus l'IA interagit avec des informations personnelles, plus les risques de fuites ou d'utilisations malveillantes augmentent.\nEn parallèle, l’IA met également en lumière des enjeux éthiques majeurs.",
+      "start_char": 1635,
+      "end_char": 1651
+    },
+    {
+      "text": "des informations personnelles",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "des",
+        "nom": "informations",
+        "adjectif_attribut": "personnelles"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Plus l'IA interagit avec des informations personnelles, plus les risques de fuites ou d'utilisations malveillantes augmentent.\nEn parallèle, l’IA met également en lumière des enjeux éthiques majeurs.",
+      "start_char": 1635,
+      "end_char": 1664
+    },
+    {
+      "text": "les risques",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "risques"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Plus l'IA interagit avec des informations personnelles, plus les risques de fuites ou d'utilisations malveillantes augmentent.\nEn parallèle, l’IA met également en lumière des enjeux éthiques majeurs.",
+      "start_char": 1671,
+      "end_char": 1682
+    },
+    {
+      "text": "des enjeux éthiques",
+      "pattern_type": "Article + Adjectif épithète + Nom",
+      "components": {
+        "article": "des",
+        "adjectif_epithete": "enjeux",
+        "nom": "éthiques"
+      },
+      "pos_tags": [
+        "DET",
+        "ADJ",
+        "NOUN"
+      ],
+      "sentence_context": "Plus l'IA interagit avec des informations personnelles, plus les risques de fuites ou d'utilisations malveillantes augmentent.\nEn parallèle, l’IA met également en lumière des enjeux éthiques majeurs.",
+      "start_char": 1781,
+      "end_char": 1800
+    },
+    {
+      "text": "des enjeux éthiques majeurs",
+      "pattern_type": "Article + Adjectif épithète + Nom + Adjectif attribut",
+      "components": {
+        "article": "des",
+        "adjectif_epithete": "enjeux",
+        "nom": "éthiques",
+        "adjectif_attribut": "majeurs"
+      },
+      "pos_tags": [
+        "DET",
+        "ADJ",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Plus l'IA interagit avec des informations personnelles, plus les risques de fuites ou d'utilisations malveillantes augmentent.\nEn parallèle, l’IA met également en lumière des enjeux éthiques majeurs.",
+      "start_char": 1781,
+      "end_char": 1808
+    },
+    {
+      "text": "les biais",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "biais"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Par exemple, les biais algorithmiques sont un problème récurrent : si les données utilisées pour entraîner un modèle sont biaisées, le système risque de reproduire ou même d'aggraver ces biais, créant ainsi des injustices.",
+      "start_char": 1823,
+      "end_char": 1832
+    },
+    {
+      "text": "les biais algorithmiques",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "les",
+        "nom": "biais",
+        "adjectif_attribut": "algorithmiques"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Par exemple, les biais algorithmiques sont un problème récurrent : si les données utilisées pour entraîner un modèle sont biaisées, le système risque de reproduire ou même d'aggraver ces biais, créant ainsi des injustices.",
+      "start_char": 1823,
+      "end_char": 1847
+    },
+    {
+      "text": "un problème",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "un",
+        "nom": "problème"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Par exemple, les biais algorithmiques sont un problème récurrent : si les données utilisées pour entraîner un modèle sont biaisées, le système risque de reproduire ou même d'aggraver ces biais, créant ainsi des injustices.",
+      "start_char": 1853,
+      "end_char": 1864
+    },
+    {
+      "text": "les données",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "données"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Par exemple, les biais algorithmiques sont un problème récurrent : si les données utilisées pour entraîner un modèle sont biaisées, le système risque de reproduire ou même d'aggraver ces biais, créant ainsi des injustices.",
+      "start_char": 1880,
+      "end_char": 1891
+    },
+    {
+      "text": "un modèle",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "un",
+        "nom": "modèle"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Par exemple, les biais algorithmiques sont un problème récurrent : si les données utilisées pour entraîner un modèle sont biaisées, le système risque de reproduire ou même d'aggraver ces biais, créant ainsi des injustices.",
+      "start_char": 1917,
+      "end_char": 1926
+    },
+    {
+      "text": "le système",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "le",
+        "nom": "système"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Par exemple, les biais algorithmiques sont un problème récurrent : si les données utilisées pour entraîner un modèle sont biaisées, le système risque de reproduire ou même d'aggraver ces biais, créant ainsi des injustices.",
+      "start_char": 1942,
+      "end_char": 1952
+    },
+    {
+      "text": "ces biais",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "ces",
+        "nom": "biais"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Par exemple, les biais algorithmiques sont un problème récurrent : si les données utilisées pour entraîner un modèle sont biaisées, le système risque de reproduire ou même d'aggraver ces biais, créant ainsi des injustices.",
+      "start_char": 1993,
+      "end_char": 2002
+    },
+    {
+      "text": "des injustices",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "injustices"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Par exemple, les biais algorithmiques sont un problème récurrent : si les données utilisées pour entraîner un modèle sont biaisées, le système risque de reproduire ou même d'aggraver ces biais, créant ainsi des injustices.",
+      "start_char": 2017,
+      "end_char": 2031
+    },
+    {
+      "text": "le domaine",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "le",
+        "nom": "domaine"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans le domaine de l’emploi, l’automatisation des tâches pourrait conduire à des pertes massives d'emplois, notamment dans des secteurs comme la fabrication ou les services, ce qui soulève des préoccupations concernant l’avenir du travail et la redistribution des richesses créées par ces technologies.",
+      "start_char": 2038,
+      "end_char": 2048
+    },
+    {
+      "text": "des pertes",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "pertes"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans le domaine de l’emploi, l’automatisation des tâches pourrait conduire à des pertes massives d'emplois, notamment dans des secteurs comme la fabrication ou les services, ce qui soulève des préoccupations concernant l’avenir du travail et la redistribution des richesses créées par ces technologies.",
+      "start_char": 2110,
+      "end_char": 2120
+    },
+    {
+      "text": "des pertes massives",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "des",
+        "nom": "pertes",
+        "adjectif_attribut": "massives"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Dans le domaine de l’emploi, l’automatisation des tâches pourrait conduire à des pertes massives d'emplois, notamment dans des secteurs comme la fabrication ou les services, ce qui soulève des préoccupations concernant l’avenir du travail et la redistribution des richesses créées par ces technologies.",
+      "start_char": 2110,
+      "end_char": 2129
+    },
+    {
+      "text": "des secteurs",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "secteurs"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans le domaine de l’emploi, l’automatisation des tâches pourrait conduire à des pertes massives d'emplois, notamment dans des secteurs comme la fabrication ou les services, ce qui soulève des préoccupations concernant l’avenir du travail et la redistribution des richesses créées par ces technologies.",
+      "start_char": 2156,
+      "end_char": 2168
+    },
+    {
+      "text": "des secteurs comme la fabrication",
+      "pattern_type": "Article + Nom + Préposition + Article + Nom",
+      "components": {
+        "article1": "des",
+        "nom1": "secteurs",
+        "preposition": "comme",
+        "article2": "la",
+        "nom2": "fabrication"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADP",
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans le domaine de l’emploi, l’automatisation des tâches pourrait conduire à des pertes massives d'emplois, notamment dans des secteurs comme la fabrication ou les services, ce qui soulève des préoccupations concernant l’avenir du travail et la redistribution des richesses créées par ces technologies.",
+      "start_char": 2156,
+      "end_char": 2189
+    },
+    {
+      "text": "la fabrication",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "fabrication"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans le domaine de l’emploi, l’automatisation des tâches pourrait conduire à des pertes massives d'emplois, notamment dans des secteurs comme la fabrication ou les services, ce qui soulève des préoccupations concernant l’avenir du travail et la redistribution des richesses créées par ces technologies.",
+      "start_char": 2175,
+      "end_char": 2189
+    },
+    {
+      "text": "les services",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "services"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans le domaine de l’emploi, l’automatisation des tâches pourrait conduire à des pertes massives d'emplois, notamment dans des secteurs comme la fabrication ou les services, ce qui soulève des préoccupations concernant l’avenir du travail et la redistribution des richesses créées par ces technologies.",
+      "start_char": 2193,
+      "end_char": 2205
+    },
+    {
+      "text": "la redistribution",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "redistribution"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans le domaine de l’emploi, l’automatisation des tâches pourrait conduire à des pertes massives d'emplois, notamment dans des secteurs comme la fabrication ou les services, ce qui soulève des préoccupations concernant l’avenir du travail et la redistribution des richesses créées par ces technologies.",
+      "start_char": 2275,
+      "end_char": 2292
+    },
+    {
+      "text": "ces technologies",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "ces",
+        "nom": "technologies"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Dans le domaine de l’emploi, l’automatisation des tâches pourrait conduire à des pertes massives d'emplois, notamment dans des secteurs comme la fabrication ou les services, ce qui soulève des préoccupations concernant l’avenir du travail et la redistribution des richesses créées par ces technologies.",
+      "start_char": 2318,
+      "end_char": 2334
+    },
+    {
+      "text": "des préoccupations",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "des",
+        "nom": "préoccupations"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Au-delà des préoccupations immédiates, il existe également une question plus fondamentale : celle de l'intelligence artificielle forte, c’est-à-dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres humains.",
+      "start_char": 2344,
+      "end_char": 2362
+    },
+    {
+      "text": "des préoccupations immédiates",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "des",
+        "nom": "préoccupations",
+        "adjectif_attribut": "immédiates"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Au-delà des préoccupations immédiates, il existe également une question plus fondamentale : celle de l'intelligence artificielle forte, c’est-à-dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres humains.",
+      "start_char": 2344,
+      "end_char": 2373
+    },
+    {
+      "text": "une question",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "une",
+        "nom": "question"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Au-delà des préoccupations immédiates, il existe également une question plus fondamentale : celle de l'intelligence artificielle forte, c’est-à-dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres humains.",
+      "start_char": 2395,
+      "end_char": 2407
+    },
+    {
+      "text": "l'intelligence",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "l'",
+        "nom": "intelligence"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Au-delà des préoccupations immédiates, il existe également une question plus fondamentale : celle de l'intelligence artificielle forte, c’est-à-dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres humains.",
+      "start_char": 2437,
+      "end_char": 2451
+    },
+    {
+      "text": "l'intelligence artificielle",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "l'",
+        "nom": "intelligence",
+        "adjectif_attribut": "artificielle"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Au-delà des préoccupations immédiates, il existe également une question plus fondamentale : celle de l'intelligence artificielle forte, c’est-à-dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres humains.",
+      "start_char": 2437,
+      "end_char": 2464
+    },
+    {
+      "text": "une IA",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "une",
+        "nom": "IA"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Au-delà des préoccupations immédiates, il existe également une question plus fondamentale : celle de l'intelligence artificielle forte, c’est-à-dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres humains.",
+      "start_char": 2485,
+      "end_char": 2491
+    },
+    {
+      "text": "une conscience",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "une",
+        "nom": "conscience"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Au-delà des préoccupations immédiates, il existe également une question plus fondamentale : celle de l'intelligence artificielle forte, c’est-à-dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres humains.",
+      "start_char": 2508,
+      "end_char": 2522
+    },
+    {
+      "text": "une compréhension",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "une",
+        "nom": "compréhension"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Au-delà des préoccupations immédiates, il existe également une question plus fondamentale : celle de l'intelligence artificielle forte, c’est-à-dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres humains.",
+      "start_char": 2526,
+      "end_char": 2543
+    },
+    {
+      "text": "la science",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "science"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Bien que cela relève encore de la science-fiction, certains chercheurs estiment que cette possibilité pourrait se concrétiser dans un avenir lointain, modifiant radicalement notre rapport à la technologie.",
+      "start_char": 2621,
+      "end_char": 2631
+    },
+    {
+      "text": "la science-",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "la",
+        "nom": "science",
+        "adjectif_attribut": "-"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Bien que cela relève encore de la science-fiction, certains chercheurs estiment que cette possibilité pourrait se concrétiser dans un avenir lointain, modifiant radicalement notre rapport à la technologie.",
+      "start_char": 2621,
+      "end_char": 2632
+    },
+    {
+      "text": "certains chercheurs",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "certains",
+        "nom": "chercheurs"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Bien que cela relève encore de la science-fiction, certains chercheurs estiment que cette possibilité pourrait se concrétiser dans un avenir lointain, modifiant radicalement notre rapport à la technologie.",
+      "start_char": 2641,
+      "end_char": 2660
+    },
+    {
+      "text": "cette possibilité",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "cette",
+        "nom": "possibilité"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Bien que cela relève encore de la science-fiction, certains chercheurs estiment que cette possibilité pourrait se concrétiser dans un avenir lointain, modifiant radicalement notre rapport à la technologie.",
+      "start_char": 2674,
+      "end_char": 2691
+    },
+    {
+      "text": "un avenir",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "un",
+        "nom": "avenir"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Bien que cela relève encore de la science-fiction, certains chercheurs estiment que cette possibilité pourrait se concrétiser dans un avenir lointain, modifiant radicalement notre rapport à la technologie.",
+      "start_char": 2721,
+      "end_char": 2730
+    },
+    {
+      "text": "un avenir lointain",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "un",
+        "nom": "avenir",
+        "adjectif_attribut": "lointain"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Bien que cela relève encore de la science-fiction, certains chercheurs estiment que cette possibilité pourrait se concrétiser dans un avenir lointain, modifiant radicalement notre rapport à la technologie.",
+      "start_char": 2721,
+      "end_char": 2739
+    },
+    {
+      "text": "notre rapport",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "notre",
+        "nom": "rapport"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Bien que cela relève encore de la science-fiction, certains chercheurs estiment que cette possibilité pourrait se concrétiser dans un avenir lointain, modifiant radicalement notre rapport à la technologie.",
+      "start_char": 2764,
+      "end_char": 2777
+    },
+    {
+      "text": "notre rapport à la technologie",
+      "pattern_type": "Article + Nom + Préposition + Article + Nom",
+      "components": {
+        "article1": "notre",
+        "nom1": "rapport",
+        "preposition": "à",
+        "article2": "la",
+        "nom2": "technologie"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADP",
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Bien que cela relève encore de la science-fiction, certains chercheurs estiment que cette possibilité pourrait se concrétiser dans un avenir lointain, modifiant radicalement notre rapport à la technologie.",
+      "start_char": 2764,
+      "end_char": 2794
+    },
+    {
+      "text": "la technologie",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "technologie"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Bien que cela relève encore de la science-fiction, certains chercheurs estiment que cette possibilité pourrait se concrétiser dans un avenir lointain, modifiant radicalement notre rapport à la technologie.",
+      "start_char": 2780,
+      "end_char": 2794
+    },
+    {
+      "text": "ces défis",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "ces",
+        "nom": "défis"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Face à ces défis, une régulation plus stricte de l'IA semble nécessaire.",
+      "start_char": 2803,
+      "end_char": 2812
+    },
+    {
+      "text": "une régulation",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "une",
+        "nom": "régulation"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Face à ces défis, une régulation plus stricte de l'IA semble nécessaire.",
+      "start_char": 2814,
+      "end_char": 2828
+    },
+    {
+      "text": "Les gouvernements",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "Les",
+        "nom": "gouvernements"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Les gouvernements et les entreprises doivent s'assurer que les technologies d'IA sont utilisées de manière responsable, en garantissant la transparence, l’équité et le respect de la vie privée des individus.",
+      "start_char": 2869,
+      "end_char": 2886
+    },
+    {
+      "text": "les entreprises",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "entreprises"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Les gouvernements et les entreprises doivent s'assurer que les technologies d'IA sont utilisées de manière responsable, en garantissant la transparence, l’équité et le respect de la vie privée des individus.",
+      "start_char": 2890,
+      "end_char": 2905
+    },
+    {
+      "text": "les technologies",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "technologies"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Les gouvernements et les entreprises doivent s'assurer que les technologies d'IA sont utilisées de manière responsable, en garantissant la transparence, l’équité et le respect de la vie privée des individus.",
+      "start_char": 2928,
+      "end_char": 2944
+    },
+    {
+      "text": "la transparence",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "transparence"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Les gouvernements et les entreprises doivent s'assurer que les technologies d'IA sont utilisées de manière responsable, en garantissant la transparence, l’équité et le respect de la vie privée des individus.",
+      "start_char": 3005,
+      "end_char": 3020
+    },
+    {
+      "text": "le respect",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "le",
+        "nom": "respect"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Les gouvernements et les entreprises doivent s'assurer que les technologies d'IA sont utilisées de manière responsable, en garantissant la transparence, l’équité et le respect de la vie privée des individus.",
+      "start_char": 3034,
+      "end_char": 3044
+    },
+    {
+      "text": "le respect de la vie",
+      "pattern_type": "Article + Nom + Préposition + Article + Nom",
+      "components": {
+        "article1": "le",
+        "nom1": "respect",
+        "preposition": "de",
+        "article2": "la",
+        "nom2": "vie"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADP",
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Les gouvernements et les entreprises doivent s'assurer que les technologies d'IA sont utilisées de manière responsable, en garantissant la transparence, l’équité et le respect de la vie privée des individus.",
+      "start_char": 3034,
+      "end_char": 3054
+    },
+    {
+      "text": "la vie",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "la",
+        "nom": "vie"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Les gouvernements et les entreprises doivent s'assurer que les technologies d'IA sont utilisées de manière responsable, en garantissant la transparence, l’équité et le respect de la vie privée des individus.",
+      "start_char": 3048,
+      "end_char": 3054
+    },
+    {
+      "text": "Une régulation",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "Une",
+        "nom": "régulation"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Une régulation efficace pourrait permettre d’éviter que l'IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes, tout en maximisant son potentiel pour améliorer le bien-être humain.\nFinalement, l’intelligence artificielle représente un outil puissant qui, s'il est maîtrisé de manière éthique et responsable, pourrait profondément améliorer notre qualité de vie.",
+      "start_char": 3077,
+      "end_char": 3091
+    },
+    {
+      "text": "Une régulation efficace",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "Une",
+        "nom": "régulation",
+        "adjectif_attribut": "efficace"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Une régulation efficace pourrait permettre d’éviter que l'IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes, tout en maximisant son potentiel pour améliorer le bien-être humain.\nFinalement, l’intelligence artificielle représente un outil puissant qui, s'il est maîtrisé de manière éthique et responsable, pourrait profondément améliorer notre qualité de vie.",
+      "start_char": 3077,
+      "end_char": 3100
+    },
+    {
+      "text": "un levier",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "un",
+        "nom": "levier"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Une régulation efficace pourrait permettre d’éviter que l'IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes, tout en maximisant son potentiel pour améliorer le bien-être humain.\nFinalement, l’intelligence artificielle représente un outil puissant qui, s'il est maîtrisé de manière éthique et responsable, pourrait profondément améliorer notre qualité de vie.",
+      "start_char": 3150,
+      "end_char": 3159
+    },
+    {
+      "text": "les mains",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "les",
+        "nom": "mains"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Une régulation efficace pourrait permettre d’éviter que l'IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes, tout en maximisant son potentiel pour améliorer le bien-être humain.\nFinalement, l’intelligence artificielle représente un outil puissant qui, s'il est maîtrisé de manière éthique et responsable, pourrait profondément améliorer notre qualité de vie.",
+      "start_char": 3177,
+      "end_char": 3186
+    },
+    {
+      "text": "les mains de quelques entreprises",
+      "pattern_type": "Article + Nom + Préposition + Article + Nom",
+      "components": {
+        "article1": "les",
+        "nom1": "mains",
+        "preposition": "de",
+        "article2": "quelques",
+        "nom2": "entreprises"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADP",
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Une régulation efficace pourrait permettre d’éviter que l'IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes, tout en maximisant son potentiel pour améliorer le bien-être humain.\nFinalement, l’intelligence artificielle représente un outil puissant qui, s'il est maîtrisé de manière éthique et responsable, pourrait profondément améliorer notre qualité de vie.",
+      "start_char": 3177,
+      "end_char": 3210
+    },
+    {
+      "text": "quelques entreprises",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "quelques",
+        "nom": "entreprises"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Une régulation efficace pourrait permettre d’éviter que l'IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes, tout en maximisant son potentiel pour améliorer le bien-être humain.\nFinalement, l’intelligence artificielle représente un outil puissant qui, s'il est maîtrisé de manière éthique et responsable, pourrait profondément améliorer notre qualité de vie.",
+      "start_char": 3190,
+      "end_char": 3210
+    },
+    {
+      "text": "quelques entreprises géantes",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "quelques",
+        "nom": "entreprises",
+        "adjectif_attribut": "géantes"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Une régulation efficace pourrait permettre d’éviter que l'IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes, tout en maximisant son potentiel pour améliorer le bien-être humain.\nFinalement, l’intelligence artificielle représente un outil puissant qui, s'il est maîtrisé de manière éthique et responsable, pourrait profondément améliorer notre qualité de vie.",
+      "start_char": 3190,
+      "end_char": 3218
+    },
+    {
+      "text": "son potentiel",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "son",
+        "nom": "potentiel"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Une régulation efficace pourrait permettre d’éviter que l'IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes, tout en maximisant son potentiel pour améliorer le bien-être humain.\nFinalement, l’intelligence artificielle représente un outil puissant qui, s'il est maîtrisé de manière éthique et responsable, pourrait profondément améliorer notre qualité de vie.",
+      "start_char": 3239,
+      "end_char": 3252
+    },
+    {
+      "text": "le bien-être",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "le",
+        "nom": "bien-être"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Une régulation efficace pourrait permettre d’éviter que l'IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes, tout en maximisant son potentiel pour améliorer le bien-être humain.\nFinalement, l’intelligence artificielle représente un outil puissant qui, s'il est maîtrisé de manière éthique et responsable, pourrait profondément améliorer notre qualité de vie.",
+      "start_char": 3268,
+      "end_char": 3280
+    },
+    {
+      "text": "le bien-être humain",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "le",
+        "nom": "bien-être",
+        "adjectif_attribut": "humain"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Une régulation efficace pourrait permettre d’éviter que l'IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes, tout en maximisant son potentiel pour améliorer le bien-être humain.\nFinalement, l’intelligence artificielle représente un outil puissant qui, s'il est maîtrisé de manière éthique et responsable, pourrait profondément améliorer notre qualité de vie.",
+      "start_char": 3268,
+      "end_char": 3287
+    },
+    {
+      "text": "un outil",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "un",
+        "nom": "outil"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Une régulation efficace pourrait permettre d’éviter que l'IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes, tout en maximisant son potentiel pour améliorer le bien-être humain.\nFinalement, l’intelligence artificielle représente un outil puissant qui, s'il est maîtrisé de manière éthique et responsable, pourrait profondément améliorer notre qualité de vie.",
+      "start_char": 3340,
+      "end_char": 3348
+    },
+    {
+      "text": "notre qualité",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "notre",
+        "nom": "qualité"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Une régulation efficace pourrait permettre d’éviter que l'IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes, tout en maximisant son potentiel pour améliorer le bien-être humain.\nFinalement, l’intelligence artificielle représente un outil puissant qui, s'il est maîtrisé de manière éthique et responsable, pourrait profondément améliorer notre qualité de vie.",
+      "start_char": 3448,
+      "end_char": 3461
+    },
+    {
+      "text": "cette révolution",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "cette",
+        "nom": "révolution"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Toutefois, pour que cette révolution numérique soit bénéfique pour tous, il est essentiel d’assurer un dialogue continu entre chercheurs, législateurs et citoyens sur les enjeux liés à cette technologie.",
+      "start_char": 3490,
+      "end_char": 3506
+    },
+    {
+      "text": "cette révolution numérique",
+      "pattern_type": "Article + Nom + Adjectif attribut",
+      "components": {
+        "article": "cette",
+        "nom": "révolution",
+        "adjectif_attribut": "numérique"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN",
+        "ADJ"
+      ],
+      "sentence_context": "Toutefois, pour que cette révolution numérique soit bénéfique pour tous, il est essentiel d’assurer un dialogue continu entre chercheurs, législateurs et citoyens sur les enjeux liés à cette technologie.",
+      "start_char": 3490,
+      "end_char": 3516
+    },
+    {
+      "text": "un dialogue",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "un",
+        "nom": "dialogue"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Toutefois, pour que cette révolution numérique soit bénéfique pour tous, il est essentiel d’assurer un dialogue continu entre chercheurs, législateurs et citoyens sur les enjeux liés à cette technologie.",
+      "start_char": 3570,
+      "end_char": 3581
+    },
+    {
+      "text": "cette technologie",
+      "pattern_type": "Article + Nom",
+      "components": {
+        "article": "cette",
+        "nom": "technologie"
+      },
+      "pos_tags": [
+        "DET",
+        "NOUN"
+      ],
+      "sentence_context": "Toutefois, pour que cette révolution numérique soit bénéfique pour tous, il est essentiel d’assurer un dialogue continu entre chercheurs, législateurs et citoyens sur les enjeux liés à cette technologie.",
+      "start_char": 3655,
+      "end_char": 3672
+    }
+  ]
+}

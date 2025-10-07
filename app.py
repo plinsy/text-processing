@@ -20,6 +20,7 @@ import re
 try:
     import spacy
     from spacy.tokens import Token
+    from spacy.matcher import Matcher
 except ImportError:
     print("spaCy is not installed. Please run: pip install spacy")
     print("Also download the French model: python -m spacy download fr_core_news_sm")
@@ -63,6 +64,23 @@ class ImportantWord:
     frequency: int
     importance_score: float
     context_examples: List[str]
+
+    def to_dict(self) -> Dict[str, Any]:
+        """Convert to dictionary for JSON serialization."""
+        return asdict(self)
+
+
+@dataclass
+class NounPhrase:
+    """Data class to store noun phrase information."""
+
+    text: str
+    pattern_type: str
+    components: Dict[str, str]  # role -> word mapping
+    pos_tags: List[str]
+    sentence_context: str
+    start_char: int
+    end_char: int
 
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary for JSON serialization."""
@@ -784,12 +802,248 @@ class BagOfWordsExtractor:
             print()
 
 
+class FrenchNounPhraseExtractor:
+    """
+    A comprehensive French noun phrase extractor using spaCy's Rule-Based Matching.
+    Extracts noun phrases with patterns:
+    1. Article + Noun (DET + NOUN)
+    2. Article + Noun + Attributive Adjective (DET + NOUN + ADJ)
+    3. Article + Epithet Adjective + Noun (DET + ADJ + NOUN)
+    4. Article + Epithet Adjective + Noun + Attributive Adjective (DET + ADJ + NOUN + ADJ)
+    """
+
+    def __init__(self):
+        """Initialize the noun phrase extractor with spaCy French model."""
+        try:
+            self.nlp = spacy.load("fr_core_news_sm")
+            logging.info("French spaCy model loaded successfully")
+        except OSError:
+            logging.error(
+                "French spaCy model not found. Please install it with: "
+                "python -m spacy download fr_core_news_sm"
+            )
+            sys.exit(1)
+
+        # Initialize the matcher
+        self.matcher = Matcher(self.nlp.vocab)
+        self._setup_patterns()
+
+    def _setup_patterns(self):
+        """Set up the matching patterns for different noun phrase structures."""
+
+        # Pattern 1: Article + Noun (DET + NOUN)
+        pattern1 = [{"POS": "DET"}, {"POS": "NOUN"}]
+        self.matcher.add("ART_NOUN", [pattern1])
+
+        # Pattern 2: Article + Noun + Attributive Adjective (DET + NOUN + ADJ)
+        pattern2 = [{"POS": "DET"}, {"POS": "NOUN"}, {"POS": "ADJ"}]
+        self.matcher.add("ART_NOUN_ADJ_ATTR", [pattern2])
+
+        # Pattern 3: Article + Epithet Adjective + Noun (DET + ADJ + NOUN)
+        pattern3 = [{"POS": "DET"}, {"POS": "ADJ"}, {"POS": "NOUN"}]
+        self.matcher.add("ART_ADJ_NOUN", [pattern3])
+
+        # Pattern 4: Article + Epithet Adjective + Noun + Attributive Adjective (DET + ADJ + NOUN + ADJ)
+        pattern4 = [{"POS": "DET"}, {"POS": "ADJ"}, {"POS": "NOUN"}, {"POS": "ADJ"}]
+        self.matcher.add("ART_ADJ_NOUN_ADJ", [pattern4])
+
+        # Additional patterns with optional prepositions
+        # Pattern 5: Article + Noun + Preposition + Article + Noun (compound noun phrases)
+        pattern5 = [
+            {"POS": "DET"},
+            {"POS": "NOUN"},
+            {"POS": "ADP"},
+            {"POS": "DET"},
+            {"POS": "NOUN"},
+        ]
+        self.matcher.add("ART_NOUN_PREP_ART_NOUN", [pattern5])
+
+    def _get_pattern_type(self, match_label: str) -> str:
+        """Convert match label to human-readable pattern type."""
+        pattern_types = {
+            "ART_NOUN": "Article + Nom",
+            "ART_NOUN_ADJ_ATTR": "Article + Nom + Adjectif attribut",
+            "ART_ADJ_NOUN": "Article + Adjectif épithète + Nom",
+            "ART_ADJ_NOUN_ADJ": "Article + Adjectif épithète + Nom + Adjectif attribut",
+            "ART_NOUN_PREP_ART_NOUN": "Article + Nom + Préposition + Article + Nom",
+        }
+        return pattern_types.get(match_label, match_label)
+
+    def _extract_components(self, span, pattern_type: str) -> Dict[str, str]:
+        """Extract individual components of the noun phrase."""
+        components = {}
+
+        if pattern_type == "Article + Nom":
+            components = {"article": span[0].text, "nom": span[1].text}
+        elif pattern_type == "Article + Nom + Adjectif attribut":
+            components = {
+                "article": span[0].text,
+                "nom": span[1].text,
+                "adjectif_attribut": span[2].text,
+            }
+        elif pattern_type == "Article + Adjectif épithète + Nom":
+            components = {
+                "article": span[0].text,
+                "adjectif_epithete": span[1].text,
+                "nom": span[2].text,
+            }
+        elif pattern_type == "Article + Adjectif épithète + Nom + Adjectif attribut":
+            components = {
+                "article": span[0].text,
+                "adjectif_epithete": span[1].text,
+                "nom": span[2].text,
+                "adjectif_attribut": span[3].text,
+            }
+        elif pattern_type == "Article + Nom + Préposition + Article + Nom":
+            components = {
+                "article1": span[0].text,
+                "nom1": span[1].text,
+                "preposition": span[2].text,
+                "article2": span[3].text,
+                "nom2": span[4].text,
+            }
+
+        return components
+
+    def extract_noun_phrases(self, text: str) -> List[NounPhrase]:
+        """
+        Extract all noun phrases from the given text.
+
+        Args:
+            text (str): The input text to analyze
+
+        Returns:
+            List[NounPhrase]: List of extracted noun phrases with detailed information
+        """
+        if not text.strip():
+            logging.warning("Empty text provided")
+            return []
+
+        doc = self.nlp(text)
+        matches = self.matcher(doc)
+        noun_phrases = []
+
+        # Keep track of processed spans to avoid duplicates
+        processed_spans = set()
+
+        for match_id, start, end in matches:
+            span = doc[start:end]
+            span_key = (start, end)
+
+            # Skip if this span was already processed
+            if span_key in processed_spans:
+                continue
+
+            processed_spans.add(span_key)
+
+            # Get the match label
+            match_label = self.nlp.vocab.strings[match_id]
+            pattern_type = self._get_pattern_type(match_label)
+
+            # Extract components
+            components = self._extract_components(span, pattern_type)
+
+            # Get sentence context
+            sentence = span.sent.text.strip()
+
+            # Create NounPhrase object
+            noun_phrase = NounPhrase(
+                text=span.text,
+                pattern_type=pattern_type,
+                components=components,
+                pos_tags=[token.pos_ for token in span],
+                sentence_context=sentence,
+                start_char=span.start_char,
+                end_char=span.end_char,
+            )
+
+            noun_phrases.append(noun_phrase)
+
+        # Sort by position in text
+        noun_phrases.sort(key=lambda x: x.start_char)
+
+        logging.info(f"Extracted {len(noun_phrases)} noun phrases")
+        return noun_phrases
+
+    def save_to_json(
+        self,
+        noun_phrases: List[NounPhrase],
+        filename: str = "noun_phrases_results.json",
+    ):
+        """Save noun phrases to JSON file."""
+        try:
+            data = {
+                "total_noun_phrases": len(noun_phrases),
+                "extraction_timestamp": str(Path(__file__).stat().st_mtime),
+                "patterns_found": {},
+                "noun_phrases": [np.to_dict() for np in noun_phrases],
+            }
+
+            # Count patterns
+            pattern_counts = Counter(np.pattern_type for np in noun_phrases)
+            data["patterns_found"] = dict(pattern_counts)
+
+            with open(filename, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+
+            logging.info(f"Noun phrases saved to {filename}")
+            return True
+        except Exception as e:
+            logging.error(f"Error saving noun phrases: {e}")
+            return False
+
+    def print_summary(self, noun_phrases: List[NounPhrase]):
+        """Print a summary of extracted noun phrases."""
+        if not noun_phrases:
+            print("Aucun groupe nominal trouvé.")
+            return
+
+        print(f"\nRésumé de l'extraction des groupes nominaux:")
+        print(f"Total des groupes nominaux extraits: {len(noun_phrases)}")
+
+        # Count by pattern type
+        pattern_counts = Counter(np.pattern_type for np in noun_phrases)
+        print(f"\nRépartition par type de motif:")
+        for pattern, count in pattern_counts.most_common():
+            print(f"  {pattern}: {count} occurrences")
+
+        print(f"\nExemples de groupes nominaux par type:")
+        print("=" * 50)
+
+        # Show examples for each pattern type
+        patterns_shown = set()
+        for np in noun_phrases:
+            if np.pattern_type not in patterns_shown:
+                patterns_shown.add(np.pattern_type)
+                print(f"\n{np.pattern_type}:")
+                print(f"  Texte: '{np.text}'")
+                print(
+                    f"  Composants: {', '.join(f'{k}: {v}' for k, v in np.components.items())}"
+                )
+                print(f"  Contexte: {np.sentence_context[:100]}...")
+
+                if len(patterns_shown) >= 5:  # Limit examples
+                    break
+
+        # Show all noun phrases (limited to first 20)
+        print(f"\nListe des groupes nominaux trouvés (premiers 20):")
+        print("-" * 80)
+        for i, np in enumerate(noun_phrases[:20], 1):
+            print(f"{i:2d}. '{np.text}' [{np.pattern_type}]")
+            print(
+                f"    Composants: {', '.join(f'{k}: {v}' for k, v in np.components.items())}"
+            )
+            print(f"    Position: caractères {np.start_char}-{np.end_char}")
+            print()
+
+
 def main():
     """Main function to run the text processing tools."""
     print("French Text Processing Suite")
     print("=" * 60)
     print("1. Verb Extraction with Tense Analysis")
     print("2. Bag-of-Words Extraction")
+    print("3. Noun Phrase Extraction")
     print("=" * 60)
 
     # Define paths
@@ -797,6 +1051,7 @@ def main():
     input_file = data_dir / "text.txt"
     verb_output_file = Path("verb_analysis_results.json")
     bow_output_file = Path("bag_of_words_results.json")
+    np_output_file = Path("noun_phrases_results.json")
 
     # Check if input file exists
     if not input_file.exists():
@@ -807,6 +1062,7 @@ def main():
     # Initialize extractors
     verb_extractor = FrenchVerbExtractor()
     bow_extractor = BagOfWordsExtractor()
+    np_extractor = FrenchNounPhraseExtractor()
 
     # 1. Verb Extraction
     print("\nSTARTING VERB EXTRACTION...")
@@ -834,6 +1090,23 @@ def main():
     else:
         print("No important words were extracted from the text.")
 
+    # 3. Noun Phrase Extraction
+    print("\n\nSTARTING NOUN PHRASE EXTRACTION...")
+    print("-" * 40)
+
+    # Read text for noun phrase extraction
+    with open(input_file, "r", encoding="utf-8") as f:
+        text_content = f.read()
+
+    noun_phrases = np_extractor.extract_noun_phrases(text_content)
+
+    if noun_phrases:
+        np_extractor.print_summary(noun_phrases)
+        np_extractor.save_to_json(noun_phrases, str(np_output_file))
+        print(f"Noun phrase analysis complete! Results saved to {np_output_file}")
+    else:
+        print("No noun phrases were extracted from the text.")
+
     # Final summary
     print("\n" + "=" * 60)
     print("PROCESSING SUMMARY")
@@ -843,8 +1116,10 @@ def main():
     print(
         f"Important words extracted: {len(important_words) if important_words else 0}"
     )
+    print(f"Noun phrases extracted: {len(noun_phrases) if noun_phrases else 0}")
     print(f"Verb results: {verb_output_file}")
     print(f"Bag-of-Words results: {bow_output_file}")
+    print(f"Noun phrases results: {np_output_file}")
     print("\nAll analyses completed successfully!")
 
 

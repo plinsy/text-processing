@@ -13,7 +13,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent))
 
 try:
-    from app import FrenchVerbExtractor, BagOfWordsExtractor
+    from app import FrenchVerbExtractor, BagOfWordsExtractor, FrenchNounPhraseExtractor
 except ImportError as e:
     print(f"Error importing app module: {e}")
     print("Make sure spaCy and the French model are installed.")
@@ -114,6 +114,93 @@ def test_bag_of_words_file():
         return []
 
 
+def test_noun_phrases_simple():
+    """Test noun phrase extraction with simple French sentences."""
+    print("Testing noun phrase extraction with simple French text")
+    print("-" * 40)
+
+    # Sample French text with various noun phrase patterns
+    test_text = """
+    Le petit chat noir mange la belle pomme rouge.
+    Une grande maison blanche se trouve dans le joli jardin fleuri.
+    Les étudiants français étudient la grammaire difficile.
+    Cette nouvelle voiture rapide appartient au professeur intelligent.
+    L'ancienne église gothique du village médiéval est magnifique.
+    """
+
+    print(f"Text to analyze: {test_text.strip()}")
+    print()
+
+    # Initialize extractor
+    extractor = FrenchNounPhraseExtractor()
+
+    # Extract noun phrases
+    noun_phrases = extractor.extract_noun_phrases(test_text)
+
+    if noun_phrases:
+        print(f"Found {len(noun_phrases)} noun phrases:")
+        print("-" * 30)
+        for i, np in enumerate(noun_phrases, 1):
+            print(f"{i}. '{np.text}' [{np.pattern_type}]")
+            print(
+                f"   Components: {', '.join(f'{k}: {v}' for k, v in np.components.items())}"
+            )
+            print()
+
+        # Test saving to JSON
+        extractor.save_to_json(noun_phrases, "test_noun_phrases.json")
+        print("Results saved to test_noun_phrases.json")
+    else:
+        print("No noun phrases found in the text.")
+
+    return noun_phrases
+
+
+def test_noun_phrases_file():
+    """Test noun phrase extraction with file analysis."""
+    print("Testing noun phrase extraction with file")
+    print("-" * 40)
+
+    # Check if test file exists
+    test_file = Path("data/text.txt")
+    if not test_file.exists():
+        print(f"Test file {test_file} not found. Skipping file test.")
+        return []
+
+    print(f"Analyzing file: {test_file}")
+
+    # Initialize extractor
+    extractor = FrenchNounPhraseExtractor()
+
+    try:
+        # Read file content
+        with open(test_file, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        print(f"File content length: {len(content)} characters")
+
+        # Extract noun phrases
+        noun_phrases = extractor.extract_noun_phrases(content)
+
+        if noun_phrases:
+            print(f"Found {len(noun_phrases)} noun phrases in file")
+
+            # Show summary
+            extractor.print_summary(noun_phrases)
+
+            # Save results
+            extractor.save_to_json(noun_phrases, "test_file_noun_phrases.json")
+            print("File analysis results saved to test_file_noun_phrases.json")
+        else:
+            print("No noun phrases found in the file.")
+
+        return noun_phrases
+
+    except Exception as e:
+        print(f"Error analyzing file: {e}")
+        return []
+
+
 def main():
     """Main test function."""
     print("French Text Processing Tool - Test Suite")
@@ -140,6 +227,16 @@ def main():
         # Test 4: File bag-of-words
         file_words = test_bag_of_words_file()
 
+        # Noun Phrase Tests
+        print("\n\n🏛️ NOUN PHRASE EXTRACTION TESTS")
+        print("=" * 40)
+
+        # Test 5: Simple noun phrases
+        simple_noun_phrases = test_noun_phrases_simple()
+
+        # Test 6: File noun phrases
+        file_noun_phrases = test_noun_phrases_file()
+
         print(f"\nAll tests completed successfully!")
         print("=" * 60)
         print("TEST RESULTS SUMMARY")
@@ -148,6 +245,8 @@ def main():
         print(f"File verbs: {len(file_verbs)}")
         print(f"Simple text words: {len(simple_words)}")
         print(f"File words: {len(file_words)}")
+        print(f"Simple text noun phrases: {len(simple_noun_phrases)}")
+        print(f"File noun phrases: {len(file_noun_phrases)}")
 
     except Exception as e:
         print(f"Test failed: {e}")
