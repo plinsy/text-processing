@@ -1,6 +1,13 @@
 # Text Processing Tasks
 
-## ✅ Completed Tasks
+## ✅ Compl### Files Structure
+- `app.py` - Main text processing tool (verb extraction + bag-of-words)
+- `setup.py` - Dependency installation script
+- `test_verb_extraction.py` - Test suite
+- `requirements.txt` - Python dependencies
+- `data/text.txt` - Input text file
+- `verb_analysis_results.json` - Verb analysis output (generated)
+- `bag_of_words_results.json` - Bag-of-Words analysis output (generated)s
 
 ### 1. Verb Extraction with Precise Tense Analysis
 - [x] Extraire tous les verbes, préciser leurs temps: Infinitif, Présent de l'indicatif, etc…
@@ -12,10 +19,18 @@
   - Includes sentence context for each verb
   - Outputs results in JSON format
 
-## 🔄 Pending Tasks
-
 ### 2. Bag-of-Words Extraction
-- [ ] Extraire tous les mots qui sont considérés comme importants dans le texte sans redondance (Bag-of-words)
+- [x] Extraire tous les mots qui sont considérés comme importants dans le texte sans redondance (Bag-of-words)
+- **Implementation**: `app.py` - Comprehensive French Bag-of-Words extraction tool
+- **Features**:
+  - Extracts important words without redundancy using lemmatization
+  - Filters out stop words, punctuation, and low-importance terms
+  - Calculates importance scores based on frequency, POS, and word length
+  - Supports minimum frequency filtering and maximum word limits
+  - Provides context examples for each important word
+  - Outputs results in JSON format
+
+## 🔄 Pending Tasks
 
 ### 3. Noun Phrase Extraction  
 - [ ] Extraire tous les groupes nominaux: Considérez les formes simples et moyennes: article + nom, article + nom + adjectif attribut, article + adjectif épithète + nom, article + adjectif épithète + nom + adjectif attribut (Utiliser exclusivement Spacy [Tips: Rule-Based Matching])

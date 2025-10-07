@@ -1,0 +1,553 @@
+[
+  {
+    "text": "technologies",
+    "lemma": "technologie",
+    "pos": "NOUN",
+    "frequency": 5,
+    "importance_score": 0.0102,
+    "context_examples": [
+      "Elle fait référence à la capacité des machines à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence humaine , telles que la compréhension du langage naturel , la reconnaissance d' images , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des **technologies** comme le machine learning et les réseaux neuronaux , qui permettent aux machines d' apprendre et de s' améliorer à partir de données .",
+      "Dans le domaine de l’ emploi , l’ automatisation des tâches pourrait conduire à des pertes massives d' emplois , notamment dans des secteurs comme la fabrication ou les services , ce qui soulève des préoccupations concernant l’ avenir du travail et la redistribution des richesses créées par ces **technologies** . \n",
+      "Bien que cela relève encore de la science - fiction , certains chercheurs estiment que cette possibilité pourrait se concrétiser dans un avenir lointain , modifiant radicalement notre rapport à la **technologie** . \n"
+    ]
+  },
+  {
+    "text": "intelligence",
+    "lemma": "intelligence",
+    "pos": "NOUN",
+    "frequency": 4,
+    "importance_score": 0.0082,
+    "context_examples": [
+      "L’ **intelligence** artificielle ( IA ) est aujourd’hui au cœur de nombreuses transformations dans nos sociétés , que ce soit dans le domaine de la santé , de l’ industrie , des transports ou même de notre quotidien numérique .",
+      "Elle fait référence à la capacité des machines à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ **intelligence** humaine , telles que la compréhension du langage naturel , la reconnaissance d' images , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des technologies comme le machine learning et les réseaux neuronaux , qui permettent aux machines d' apprendre et de s' améliorer à partir de données .",
+      "Au - delà des préoccupations immédiates , il existe également une question plus fondamentale : celle de l' **intelligence** artificielle forte , c’ est - à - dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres humains ."
+    ]
+  },
+  {
+    "text": "peuvent",
+    "lemma": "pouvoir",
+    "pos": "VERB",
+    "frequency": 7,
+    "importance_score": 0.0077,
+    "context_examples": [
+      "Dans la santé , par exemple , des algorithmes d’ IA **peuvent** analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins , tandis que dans l’ industrie , les robots intelligents optimisent la production et réduisent les erreurs humaines . \n",
+      "Cependant , ce **pouvoir** immense soulève aussi de nombreuses questions , notamment en ce qui concerne la sécurité des données et la protection de la vie privée .",
+      "Dans le domaine de l’ emploi , l’ automatisation des tâches **pourrait** conduire à des pertes massives d' emplois , notamment dans des secteurs comme la fabrication ou les services , ce qui soulève des préoccupations concernant l’ avenir du travail et la redistribution des richesses créées par ces technologies . \n"
+    ]
+  },
+  {
+    "text": "données",
+    "lemma": "donnée",
+    "pos": "NOUN",
+    "frequency": 5,
+    "importance_score": 0.0061,
+    "context_examples": [
+      "Elle fait référence à la capacité des machines à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence humaine , telles que la compréhension du langage naturel , la reconnaissance d' images , la prise de décisions ou encore l’ analyse de **données** complexes . \n L’ IA repose sur des technologies comme le machine learning et les réseaux neuronaux , qui permettent aux machines d' apprendre et de s' améliorer à partir de données .",
+      "Elle fait référence à la capacité des machines à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence humaine , telles que la compréhension du langage naturel , la reconnaissance d' images , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des technologies comme le machine learning et les réseaux neuronaux , qui permettent aux machines d' apprendre et de s' améliorer à partir de **données** .",
+      "L' un des plus grands atouts de l' IA réside dans sa capacité à traiter et analyser des volumes massifs de **données** en un temps record ."
+    ]
+  },
+  {
+    "text": "entreprises",
+    "lemma": "entreprise",
+    "pos": "NOUN",
+    "frequency": 3,
+    "importance_score": 0.0061,
+    "context_examples": [
+      "Cela permet aux **entreprises** d' obtenir des insights précieux , d’ anticiper des tendances ou de proposer des services ultra-personnalisés .",
+      "Les gouvernements et les **entreprises** doivent s' assurer que les technologies d' IA sont utilisées de manière responsable , en garantissant la transparence , l’ équité et le respect de la vie privée des individus .",
+      "Une régulation efficace pourrait permettre d’ éviter que l' IA ne devienne un levier de pouvoir entre les mains de quelques **entreprises** géantes , tout en maximisant son potentiel pour améliorer le bien-être humain . \n Finalement , l’ intelligence artificielle représente un outil puissant qui , s' il est maîtrisé de manière éthique et responsable , pourrait profondément améliorer notre qualité de vie ."
+    ]
+  },
+  {
+    "text": "artificielle",
+    "lemma": "artificiel",
+    "pos": "ADJ",
+    "frequency": 3,
+    "importance_score": 0.0052,
+    "context_examples": [
+      "L’ intelligence **artificielle** ( IA ) est aujourd’hui au cœur de nombreuses transformations dans nos sociétés , que ce soit dans le domaine de la santé , de l’ industrie , des transports ou même de notre quotidien numérique .",
+      "Au - delà des préoccupations immédiates , il existe également une question plus fondamentale : celle de l' intelligence **artificielle** forte , c’ est - à - dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres humains .",
+      "Une régulation efficace pourrait permettre d’ éviter que l' IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes , tout en maximisant son potentiel pour améliorer le bien-être humain . \n Finalement , l’ intelligence **artificielle** représente un outil puissant qui , s' il est maîtrisé de manière éthique et responsable , pourrait profondément améliorer notre qualité de vie ."
+    ]
+  },
+  {
+    "text": "capacité",
+    "lemma": "capacité",
+    "pos": "NOUN",
+    "frequency": 3,
+    "importance_score": 0.0049,
+    "context_examples": [
+      "Elle fait référence à la **capacité** des machines à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence humaine , telles que la compréhension du langage naturel , la reconnaissance d' images , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des technologies comme le machine learning et les réseaux neuronaux , qui permettent aux machines d' apprendre et de s' améliorer à partir de données .",
+      "C’ est cette **capacité** d’ apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux , les voitures autonomes ou encore les systèmes de recommandation sur les plateformes de streaming .",
+      "L' un des plus grands atouts de l' IA réside dans sa **capacité** à traiter et analyser des volumes massifs de données en un temps record ."
+    ]
+  },
+  {
+    "text": "machines",
+    "lemma": "machine",
+    "pos": "NOUN",
+    "frequency": 3,
+    "importance_score": 0.0043,
+    "context_examples": [
+      "Elle fait référence à la capacité des **machines** à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence humaine , telles que la compréhension du langage naturel , la reconnaissance d' images , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des technologies comme le machine learning et les réseaux neuronaux , qui permettent aux machines d' apprendre et de s' améliorer à partir de données .",
+      "Elle fait référence à la capacité des machines à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence humaine , telles que la compréhension du langage naturel , la reconnaissance d' images , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des technologies comme le **machine** learning et les réseaux neuronaux , qui permettent aux machines d' apprendre et de s' améliorer à partir de données .",
+      "Elle fait référence à la capacité des machines à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence humaine , telles que la compréhension du langage naturel , la reconnaissance d' images , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des technologies comme le machine learning et les réseaux neuronaux , qui permettent aux **machines** d' apprendre et de s' améliorer à partir de données ."
+    ]
+  },
+  {
+    "text": "permettent",
+    "lemma": "permettre",
+    "pos": "VERB",
+    "frequency": 3,
+    "importance_score": 0.0043,
+    "context_examples": [
+      "Elle fait référence à la capacité des machines à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence humaine , telles que la compréhension du langage naturel , la reconnaissance d' images , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des technologies comme le machine learning et les réseaux neuronaux , qui **permettent** aux machines d' apprendre et de s' améliorer à partir de données .",
+      "Cela **permet** aux entreprises d' obtenir des insights précieux , d’ anticiper des tendances ou de proposer des services ultra-personnalisés .",
+      "Une régulation efficace pourrait **permettre** d’ éviter que l' IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes , tout en maximisant son potentiel pour améliorer le bien-être humain . \n Finalement , l’ intelligence artificielle représente un outil puissant qui , s' il est maîtrisé de manière éthique et responsable , pourrait profondément améliorer notre qualité de vie ."
+    ]
+  },
+  {
+    "text": "améliorer",
+    "lemma": "améliorer",
+    "pos": "VERB",
+    "frequency": 3,
+    "importance_score": 0.0043,
+    "context_examples": [
+      "Elle fait référence à la capacité des machines à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence humaine , telles que la compréhension du langage naturel , la reconnaissance d' images , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des technologies comme le machine learning et les réseaux neuronaux , qui permettent aux machines d' apprendre et de s' **améliorer** à partir de données .",
+      "Une régulation efficace pourrait permettre d’ éviter que l' IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes , tout en maximisant son potentiel pour **améliorer** le bien-être humain . \n Finalement , l’ intelligence artificielle représente un outil puissant qui , s' il est maîtrisé de manière éthique et responsable , pourrait profondément améliorer notre qualité de vie .",
+      "Une régulation efficace pourrait permettre d’ éviter que l' IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes , tout en maximisant son potentiel pour améliorer le bien-être humain . \n Finalement , l’ intelligence artificielle représente un outil puissant qui , s' il est maîtrisé de manière éthique et responsable , pourrait profondément **améliorer** notre qualité de vie ."
+    ]
+  },
+  {
+    "text": "humaine",
+    "lemma": "humain",
+    "pos": "ADJ",
+    "frequency": 4,
+    "importance_score": 0.0042,
+    "context_examples": [
+      "Elle fait référence à la capacité des machines à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence **humaine** , telles que la compréhension du langage naturel , la reconnaissance d' images , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des technologies comme le machine learning et les réseaux neuronaux , qui permettent aux machines d' apprendre et de s' améliorer à partir de données .",
+      "Dans la santé , par exemple , des algorithmes d’ IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins , tandis que dans l’ industrie , les robots intelligents optimisent la production et réduisent les erreurs **humaines** . \n",
+      "Au - delà des préoccupations immédiates , il existe également une question plus fondamentale : celle de l' intelligence artificielle forte , c’ est - à - dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres **humains** ."
+    ]
+  },
+  {
+    "text": "compréhension",
+    "lemma": "compréhension",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0041,
+    "context_examples": [
+      "Elle fait référence à la capacité des machines à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence humaine , telles que la **compréhension** du langage naturel , la reconnaissance d' images , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des technologies comme le machine learning et les réseaux neuronaux , qui permettent aux machines d' apprendre et de s' améliorer à partir de données .",
+      "Au - delà des préoccupations immédiates , il existe également une question plus fondamentale : celle de l' intelligence artificielle forte , c’ est - à - dire une IA qui posséderait une conscience et une **compréhension** du monde similaire à celle des êtres humains ."
+    ]
+  },
+  {
+    "text": "préoccupations",
+    "lemma": "préoccupation",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0041,
+    "context_examples": [
+      "Dans le domaine de l’ emploi , l’ automatisation des tâches pourrait conduire à des pertes massives d' emplois , notamment dans des secteurs comme la fabrication ou les services , ce qui soulève des **préoccupations** concernant l’ avenir du travail et la redistribution des richesses créées par ces technologies . \n",
+      "Au - delà des **préoccupations** immédiates , il existe également une question plus fondamentale : celle de l' intelligence artificielle forte , c’ est - à - dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres humains ."
+    ]
+  },
+  {
+    "text": "régulation",
+    "lemma": "régulation",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0041,
+    "context_examples": [
+      "Face à ces défis , une **régulation** plus stricte de l' IA semble nécessaire .",
+      "Une **régulation** efficace pourrait permettre d’ éviter que l' IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes , tout en maximisant son potentiel pour améliorer le bien-être humain . \n Finalement , l’ intelligence artificielle représente un outil puissant qui , s' il est maîtrisé de manière éthique et responsable , pourrait profondément améliorer notre qualité de vie ."
+    ]
+  },
+  {
+    "text": "industrie",
+    "lemma": "industrie",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0037,
+    "context_examples": [
+      "L’ intelligence artificielle ( IA ) est aujourd’hui au cœur de nombreuses transformations dans nos sociétés , que ce soit dans le domaine de la santé , de l’ **industrie** , des transports ou même de notre quotidien numérique .",
+      "Dans la santé , par exemple , des algorithmes d’ IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins , tandis que dans l’ **industrie** , les robots intelligents optimisent la production et réduisent les erreurs humaines . \n"
+    ]
+  },
+  {
+    "text": "chercheurs",
+    "lemma": "chercheur",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0037,
+    "context_examples": [
+      "Bien que cela relève encore de la science - fiction , certains **chercheurs** estiment que cette possibilité pourrait se concrétiser dans un avenir lointain , modifiant radicalement notre rapport à la technologie . \n",
+      "Toutefois , pour que cette révolution numérique soit bénéfique pour tous , il est essentiel d’ assurer un dialogue continu entre **chercheurs** , législateurs et citoyens sur les enjeux liés à cette technologie . \n\n"
+    ]
+  },
+  {
+    "text": "responsable",
+    "lemma": "responsable",
+    "pos": "ADJ",
+    "frequency": 2,
+    "importance_score": 0.0035,
+    "context_examples": [
+      "Les gouvernements et les entreprises doivent s' assurer que les technologies d' IA sont utilisées de manière **responsable** , en garantissant la transparence , l’ équité et le respect de la vie privée des individus .",
+      "Une régulation efficace pourrait permettre d’ éviter que l' IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes , tout en maximisant son potentiel pour améliorer le bien-être humain . \n Finalement , l’ intelligence artificielle représente un outil puissant qui , s' il est maîtrisé de manière éthique et **responsable** , pourrait profondément améliorer notre qualité de vie ."
+    ]
+  },
+  {
+    "text": "questions",
+    "lemma": "question",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0033,
+    "context_examples": [
+      "Cependant , ce pouvoir immense soulève aussi de nombreuses **questions** , notamment en ce qui concerne la sécurité des données et la protection de la vie privée .",
+      "Au - delà des préoccupations immédiates , il existe également une **question** plus fondamentale : celle de l' intelligence artificielle forte , c’ est - à - dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres humains ."
+    ]
+  },
+  {
+    "text": "numérique",
+    "lemma": "numérique",
+    "pos": "ADJ",
+    "frequency": 2,
+    "importance_score": 0.0031,
+    "context_examples": [
+      "L’ intelligence artificielle ( IA ) est aujourd’hui au cœur de nombreuses transformations dans nos sociétés , que ce soit dans le domaine de la santé , de l’ industrie , des transports ou même de notre quotidien **numérique** .",
+      "Toutefois , pour que cette révolution **numérique** soit bénéfique pour tous , il est essentiel d’ assurer un dialogue continu entre chercheurs , législateurs et citoyens sur les enjeux liés à cette technologie . \n\n"
+    ]
+  },
+  {
+    "text": "domaine",
+    "lemma": "domaine",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0029,
+    "context_examples": [
+      "L’ intelligence artificielle ( IA ) est aujourd’hui au cœur de nombreuses transformations dans nos sociétés , que ce soit dans le **domaine** de la santé , de l’ industrie , des transports ou même de notre quotidien numérique .",
+      "Dans le **domaine** de l’ emploi , l’ automatisation des tâches pourrait conduire à des pertes massives d' emplois , notamment dans des secteurs comme la fabrication ou les services , ce qui soulève des préoccupations concernant l’ avenir du travail et la redistribution des richesses créées par ces technologies . \n"
+    ]
+  },
+  {
+    "text": "systèmes",
+    "lemma": "système",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0029,
+    "context_examples": [
+      "C’ est cette capacité d’ apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux , les voitures autonomes ou encore les **systèmes** de recommandation sur les plateformes de streaming .",
+      "Par exemple , les biais algorithmiques sont un problème récurrent : si les données utilisées pour entraîner un modèle sont biaisées , le **système** risque de reproduire ou même d' aggraver ces biais , créant ainsi des injustices ."
+    ]
+  },
+  {
+    "text": "exemple",
+    "lemma": "exemple",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0029,
+    "context_examples": [
+      "Dans la santé , par **exemple** , des algorithmes d’ IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins , tandis que dans l’ industrie , les robots intelligents optimisent la production et réduisent les erreurs humaines . \n",
+      "Par **exemple** , les biais algorithmiques sont un problème récurrent : si les données utilisées pour entraîner un modèle sont biaisées , le système risque de reproduire ou même d' aggraver ces biais , créant ainsi des injustices ."
+    ]
+  },
+  {
+    "text": "services",
+    "lemma": "service",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0029,
+    "context_examples": [
+      "Cela permet aux entreprises d' obtenir des insights précieux , d’ anticiper des tendances ou de proposer des **services** ultra-personnalisés .",
+      "Dans le domaine de l’ emploi , l’ automatisation des tâches pourrait conduire à des pertes massives d' emplois , notamment dans des secteurs comme la fabrication ou les **services** , ce qui soulève des préoccupations concernant l’ avenir du travail et la redistribution des richesses créées par ces technologies . \n"
+    ]
+  },
+  {
+    "text": "éthiques",
+    "lemma": "éthique",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0029,
+    "context_examples": [
+      "Plus l' IA interagit avec des informations personnelles , plus les risques de fuites ou d' utilisations malveillantes augmentent . \n En parallèle , l’ IA met également en lumière des enjeux **éthiques** majeurs .",
+      "Une régulation efficace pourrait permettre d’ éviter que l' IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes , tout en maximisant son potentiel pour améliorer le bien-être humain . \n Finalement , l’ intelligence artificielle représente un outil puissant qui , s' il est maîtrisé de manière **éthique** et responsable , pourrait profondément améliorer notre qualité de vie ."
+    ]
+  },
+  {
+    "text": "manière",
+    "lemma": "manière",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0029,
+    "context_examples": [
+      "Les gouvernements et les entreprises doivent s' assurer que les technologies d' IA sont utilisées de **manière** responsable , en garantissant la transparence , l’ équité et le respect de la vie privée des individus .",
+      "Une régulation efficace pourrait permettre d’ éviter que l' IA ne devienne un levier de pouvoir entre les mains de quelques entreprises géantes , tout en maximisant son potentiel pour améliorer le bien-être humain . \n Finalement , l’ intelligence artificielle représente un outil puissant qui , s' il est maîtrisé de **manière** éthique et responsable , pourrait profondément améliorer notre qualité de vie ."
+    ]
+  },
+  {
+    "text": "nombreuses",
+    "lemma": "nombreux",
+    "pos": "ADJ",
+    "frequency": 2,
+    "importance_score": 0.0028,
+    "context_examples": [
+      "L’ intelligence artificielle ( IA ) est aujourd’hui au cœur de **nombreuses** transformations dans nos sociétés , que ce soit dans le domaine de la santé , de l’ industrie , des transports ou même de notre quotidien numérique .",
+      "Cependant , ce pouvoir immense soulève aussi de **nombreuses** questions , notamment en ce qui concerne la sécurité des données et la protection de la vie privée ."
+    ]
+  },
+  {
+    "text": "notamment",
+    "lemma": "notamment",
+    "pos": "ADV",
+    "frequency": 2,
+    "importance_score": 0.0028,
+    "context_examples": [
+      "Cependant , ce pouvoir immense soulève aussi de nombreuses questions , **notamment** en ce qui concerne la sécurité des données et la protection de la vie privée .",
+      "Dans le domaine de l’ emploi , l’ automatisation des tâches pourrait conduire à des pertes massives d' emplois , **notamment** dans des secteurs comme la fabrication ou les services , ce qui soulève des préoccupations concernant l’ avenir du travail et la redistribution des richesses créées par ces technologies . \n"
+    ]
+  },
+  {
+    "text": "concerne",
+    "lemma": "concerner",
+    "pos": "VERB",
+    "frequency": 2,
+    "importance_score": 0.0028,
+    "context_examples": [
+      "Cependant , ce pouvoir immense soulève aussi de nombreuses questions , notamment en ce qui **concerne** la sécurité des données et la protection de la vie privée .",
+      "Dans le domaine de l’ emploi , l’ automatisation des tâches pourrait conduire à des pertes massives d' emplois , notamment dans des secteurs comme la fabrication ou les services , ce qui soulève des préoccupations **concernant** l’ avenir du travail et la redistribution des richesses créées par ces technologies . \n"
+    ]
+  },
+  {
+    "text": "également",
+    "lemma": "également",
+    "pos": "ADV",
+    "frequency": 2,
+    "importance_score": 0.0028,
+    "context_examples": [
+      "Plus l' IA interagit avec des informations personnelles , plus les risques de fuites ou d' utilisations malveillantes augmentent . \n En parallèle , l’ IA met **également** en lumière des enjeux éthiques majeurs .",
+      "Au - delà des préoccupations immédiates , il existe **également** une question plus fondamentale : celle de l' intelligence artificielle forte , c’ est - à - dire une IA qui posséderait une conscience et une compréhension du monde similaire à celle des êtres humains ."
+    ]
+  },
+  {
+    "text": "analyser",
+    "lemma": "analyser",
+    "pos": "VERB",
+    "frequency": 2,
+    "importance_score": 0.0025,
+    "context_examples": [
+      "Dans la santé , par exemple , des algorithmes d’ IA peuvent **analyser** des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins , tandis que dans l’ industrie , les robots intelligents optimisent la production et réduisent les erreurs humaines . \n",
+      "L' un des plus grands atouts de l' IA réside dans sa capacité à traiter et **analyser** des volumes massifs de données en un temps record ."
+    ]
+  },
+  {
+    "text": "soulève",
+    "lemma": "soulever",
+    "pos": "VERB",
+    "frequency": 2,
+    "importance_score": 0.0025,
+    "context_examples": [
+      "Cependant , ce pouvoir immense **soulève** aussi de nombreuses questions , notamment en ce qui concerne la sécurité des données et la protection de la vie privée .",
+      "Dans le domaine de l’ emploi , l’ automatisation des tâches pourrait conduire à des pertes massives d' emplois , notamment dans des secteurs comme la fabrication ou les services , ce qui **soulève** des préoccupations concernant l’ avenir du travail et la redistribution des richesses créées par ces technologies . \n"
+    ]
+  },
+  {
+    "text": "risques",
+    "lemma": "risque",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0025,
+    "context_examples": [
+      "Plus l' IA interagit avec des informations personnelles , plus les **risques** de fuites ou d' utilisations malveillantes augmentent . \n En parallèle , l’ IA met également en lumière des enjeux éthiques majeurs .",
+      "Par exemple , les biais algorithmiques sont un problème récurrent : si les données utilisées pour entraîner un modèle sont biaisées , le système **risque** de reproduire ou même d' aggraver ces biais , créant ainsi des injustices ."
+    ]
+  },
+  {
+    "text": "utilisées",
+    "lemma": "utiliser",
+    "pos": "VERB",
+    "frequency": 2,
+    "importance_score": 0.0025,
+    "context_examples": [
+      "Par exemple , les biais algorithmiques sont un problème récurrent : si les données **utilisées** pour entraîner un modèle sont biaisées , le système risque de reproduire ou même d' aggraver ces biais , créant ainsi des injustices .",
+      "Les gouvernements et les entreprises doivent s' assurer que les technologies d' IA sont **utilisées** de manière responsable , en garantissant la transparence , l’ équité et le respect de la vie privée des individus ."
+    ]
+  },
+  {
+    "text": "emploi",
+    "lemma": "emploi",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0025,
+    "context_examples": [
+      "Dans le domaine de l’ **emploi** , l’ automatisation des tâches pourrait conduire à des pertes massives d' emplois , notamment dans des secteurs comme la fabrication ou les services , ce qui soulève des préoccupations concernant l’ avenir du travail et la redistribution des richesses créées par ces technologies . \n",
+      "Dans le domaine de l’ emploi , l’ automatisation des tâches pourrait conduire à des pertes massives d' **emplois** , notamment dans des secteurs comme la fabrication ou les services , ce qui soulève des préoccupations concernant l’ avenir du travail et la redistribution des richesses créées par ces technologies . \n"
+    ]
+  },
+  {
+    "text": "avenir",
+    "lemma": "avenir",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.0025,
+    "context_examples": [
+      "Dans le domaine de l’ emploi , l’ automatisation des tâches pourrait conduire à des pertes massives d' emplois , notamment dans des secteurs comme la fabrication ou les services , ce qui soulève des préoccupations concernant l’ **avenir** du travail et la redistribution des richesses créées par ces technologies . \n",
+      "Bien que cela relève encore de la science - fiction , certains chercheurs estiment que cette possibilité pourrait se concrétiser dans un **avenir** lointain , modifiant radicalement notre rapport à la technologie . \n"
+    ]
+  },
+  {
+    "text": "assurer",
+    "lemma": "assurer",
+    "pos": "VERB",
+    "frequency": 2,
+    "importance_score": 0.0022,
+    "context_examples": [
+      "Les gouvernements et les entreprises doivent s' **assurer** que les technologies d' IA sont utilisées de manière responsable , en garantissant la transparence , l’ équité et le respect de la vie privée des individus .",
+      "Toutefois , pour que cette révolution numérique soit bénéfique pour tous , il est essentiel d’ **assurer** un dialogue continu entre chercheurs , législateurs et citoyens sur les enjeux liés à cette technologie . \n\n"
+    ]
+  },
+  {
+    "text": "streaming",
+    "lemma": "streaming",
+    "pos": "PROPN",
+    "frequency": 1,
+    "importance_score": 0.0021,
+    "context_examples": [
+      "C’ est cette capacité d’ apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux , les voitures autonomes ou encore les systèmes de recommandation sur les plateformes de **streaming** ."
+    ]
+  },
+  {
+    "text": "massifs",
+    "lemma": "massif",
+    "pos": "ADJ",
+    "frequency": 2,
+    "importance_score": 0.0021,
+    "context_examples": [
+      "L' un des plus grands atouts de l' IA réside dans sa capacité à traiter et analyser des volumes **massifs** de données en un temps record .",
+      "Dans le domaine de l’ emploi , l’ automatisation des tâches pourrait conduire à des pertes **massives** d' emplois , notamment dans des secteurs comme la fabrication ou les services , ce qui soulève des préoccupations concernant l’ avenir du travail et la redistribution des richesses créées par ces technologies . \n"
+    ]
+  },
+  {
+    "text": "transformations",
+    "lemma": "transformation",
+    "pos": "NOUN",
+    "frequency": 1,
+    "importance_score": 0.002,
+    "context_examples": [
+      "L’ intelligence artificielle ( IA ) est aujourd’hui au cœur de nombreuses **transformations** dans nos sociétés , que ce soit dans le domaine de la santé , de l’ industrie , des transports ou même de notre quotidien numérique ."
+    ]
+  },
+  {
+    "text": "santé",
+    "lemma": "santé",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.002,
+    "context_examples": [
+      "L’ intelligence artificielle ( IA ) est aujourd’hui au cœur de nombreuses transformations dans nos sociétés , que ce soit dans le domaine de la **santé** , de l’ industrie , des transports ou même de notre quotidien numérique .",
+      "Dans la **santé** , par exemple , des algorithmes d’ IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins , tandis que dans l’ industrie , les robots intelligents optimisent la production et réduisent les erreurs humaines . \n"
+    ]
+  },
+  {
+    "text": "tâches",
+    "lemma": "tâche",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.002,
+    "context_examples": [
+      "Elle fait référence à la capacité des machines à accomplir des **tâches** qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence humaine , telles que la compréhension du langage naturel , la reconnaissance d' images , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des technologies comme le machine learning et les réseaux neuronaux , qui permettent aux machines d' apprendre et de s' améliorer à partir de données .",
+      "Dans le domaine de l’ emploi , l’ automatisation des **tâches** pourrait conduire à des pertes massives d' emplois , notamment dans des secteurs comme la fabrication ou les services , ce qui soulève des préoccupations concernant l’ avenir du travail et la redistribution des richesses créées par ces technologies . \n"
+    ]
+  },
+  {
+    "text": "reconnaissance",
+    "lemma": "reconnaissance",
+    "pos": "NOUN",
+    "frequency": 1,
+    "importance_score": 0.002,
+    "context_examples": [
+      "Elle fait référence à la capacité des machines à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence humaine , telles que la compréhension du langage naturel , la **reconnaissance** d' images , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des technologies comme le machine learning et les réseaux neuronaux , qui permettent aux machines d' apprendre et de s' améliorer à partir de données ."
+    ]
+  },
+  {
+    "text": "images",
+    "lemma": "image",
+    "pos": "NOUN",
+    "frequency": 2,
+    "importance_score": 0.002,
+    "context_examples": [
+      "Elle fait référence à la capacité des machines à accomplir des tâches qui , jusqu’ à récemment , étaient considérées comme l’ apanage de l’ intelligence humaine , telles que la compréhension du langage naturel , la reconnaissance d' **images** , la prise de décisions ou encore l’ analyse de données complexes . \n L’ IA repose sur des technologies comme le machine learning et les réseaux neuronaux , qui permettent aux machines d' apprendre et de s' améliorer à partir de données .",
+      "Dans la santé , par exemple , des algorithmes d’ IA peuvent analyser des **images** médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins , tandis que dans l’ industrie , les robots intelligents optimisent la production et réduisent les erreurs humaines . \n"
+    ]
+  },
+  {
+    "text": "apprentissage",
+    "lemma": "apprentissage",
+    "pos": "NOUN",
+    "frequency": 1,
+    "importance_score": 0.002,
+    "context_examples": [
+      "C’ est cette capacité d’ **apprentissage** qui a ouvert la voie à des applications aussi diverses que les assistants vocaux , les voitures autonomes ou encore les systèmes de recommandation sur les plateformes de streaming ."
+    ]
+  },
+  {
+    "text": "applications",
+    "lemma": "application",
+    "pos": "NOUN",
+    "frequency": 1,
+    "importance_score": 0.002,
+    "context_examples": [
+      "C’ est cette capacité d’ apprentissage qui a ouvert la voie à des **applications** aussi diverses que les assistants vocaux , les voitures autonomes ou encore les systèmes de recommandation sur les plateformes de streaming ."
+    ]
+  },
+  {
+    "text": "recommandation",
+    "lemma": "recommandation",
+    "pos": "NOUN",
+    "frequency": 1,
+    "importance_score": 0.002,
+    "context_examples": [
+      "C’ est cette capacité d’ apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux , les voitures autonomes ou encore les systèmes de **recommandation** sur les plateformes de streaming ."
+    ]
+  },
+  {
+    "text": "plateformes",
+    "lemma": "plateforme",
+    "pos": "NOUN",
+    "frequency": 1,
+    "importance_score": 0.002,
+    "context_examples": [
+      "C’ est cette capacité d’ apprentissage qui a ouvert la voie à des applications aussi diverses que les assistants vocaux , les voitures autonomes ou encore les systèmes de recommandation sur les **plateformes** de streaming ."
+    ]
+  },
+  {
+    "text": "algorithmes",
+    "lemma": "algorithme",
+    "pos": "NOUN",
+    "frequency": 1,
+    "importance_score": 0.002,
+    "context_examples": [
+      "Dans la santé , par exemple , des **algorithmes** d’ IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins , tandis que dans l’ industrie , les robots intelligents optimisent la production et réduisent les erreurs humaines . \n"
+    ]
+  },
+  {
+    "text": "pathologies",
+    "lemma": "pathologie",
+    "pos": "NOUN",
+    "frequency": 1,
+    "importance_score": 0.002,
+    "context_examples": [
+      "Dans la santé , par exemple , des algorithmes d’ IA peuvent analyser des images médicales pour détecter des **pathologies** avec une précision parfois supérieure à celle des médecins , tandis que dans l’ industrie , les robots intelligents optimisent la production et réduisent les erreurs humaines . \n"
+    ]
+  },
+  {
+    "text": "production",
+    "lemma": "production",
+    "pos": "NOUN",
+    "frequency": 1,
+    "importance_score": 0.002,
+    "context_examples": [
+      "Dans la santé , par exemple , des algorithmes d’ IA peuvent analyser des images médicales pour détecter des pathologies avec une précision parfois supérieure à celle des médecins , tandis que dans l’ industrie , les robots intelligents optimisent la **production** et réduisent les erreurs humaines . \n"
+    ]
+  }
+]
